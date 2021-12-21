@@ -6,7 +6,6 @@
   "scripts": {
     "update": "sh update.sh"
   },
-  "private": true,
   "author": "ynh",
   "license": "ISC",
   "publishConfig": {
