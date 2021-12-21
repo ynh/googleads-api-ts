@@ -1,6 +1,8 @@
 name: NPM Package
 
-on: [push]
+on:
+  release:
+    types: [created]
 
 jobs:
   build:
@@ -36,5 +38,6 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
       - run: npm run update
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
