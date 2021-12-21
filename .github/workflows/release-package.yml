@@ -26,6 +26,8 @@ jobs:
       packages: write
       contents: read
     steps:
+      - name: Build protobuf library
+        run: sudo apt-get install -y protobuf-compiler
       - uses: actions/checkout@v2
         with:
           submodules: recursive 
