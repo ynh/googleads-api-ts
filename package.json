@@ -1,0 +1,12 @@
+{
+  "name": "@ynh/googleads-api-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "sh update.sh"
+  },
+  "private": true,
+  "author": "ynh",
+  "license": "ISC"
+}
