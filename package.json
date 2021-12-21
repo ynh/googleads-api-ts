@@ -8,5 +8,8 @@
   },
   "private": true,
   "author": "ynh",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "@ynh:registry": "https://npm.pkg.github.com"
+  }
 }
